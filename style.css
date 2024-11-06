@@ -1,0 +1,169 @@
+/* Fuentes */
+
+@font-face {
+    font-family: 'TTBlackWards'; 
+    src: url('_fonts/TT\ Backwards\ Sans\ Trial\ Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TTCommonsExtraLight'; 
+    src: url('_fonts/TT\ Commons\ ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TTMoons'; 
+    src: url('_fonts/TT\ Moons\ Trial\ Regular.otf') format('opentype');
+}
+
+/* Estilos generales */
+
+body, html {
+    margin: 0;
+    padding: 0;  
+    scroll-snap-type: y mandatory;
+    background-color: #E6D7AC; /* Activa scroll-snap en el eje Y */
+    font-family: TTCommonsExtraLight;
+
+  }
+  
+  hr {
+    border: none;      /* Quita el estilo de borde por defecto */
+    border-top: 1px solid #0C0C0A;  /* Agrega una línea superior negra (ajusta el grosor si deseas) */
+    margin: 0.5em 0;     /* Margen superior e inferior para espaciado */
+  }
+  
+  
+  .pagina {
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */  
+    color: #473c38;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    opacity:0%;
+    transition: opacity 1.2s ease-in-out;
+  }
+
+  .pagina.visible {
+    opacity: 1; /* Se vuelve visible al hacer scroll */
+}
+
+  .titulo{
+
+    font-family: TTMoons;
+    color: #473c38;
+    font-size: 28px;
+  }
+
+  .subtitulos{
+
+    font-family: TTBlackWards;
+    color: #473c38;
+    font-size: 70px;
+    width: 25%;
+
+  }
+
+  
+
+  .anuncio{
+
+    display: flex;
+    gap: 8%;
+
+
+  }
+
+  .anuncio2{
+
+    position: absolute;
+    top: 123%;
+    left: 55%;
+    
+  }
+
+  .buttonext{
+
+    background-color:#E6D7AC ;
+    width: 230px;
+    height: 65px;
+    font-family: TTCommonsExtraLight;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border: 1.7px solid black;
+    transition: background-color 0.7s;
+    cursor: pointer;
+    position: absolute;
+    top:65%;
+    left: 56.7%;
+
+  }
+
+  .buttonext:hover {
+    background-color: #ccbf9a; /* Color del botón al pasar el cursor */
+  }
+
+  .parrafo1{
+
+    font-size: 24px;
+    width: 44%;
+    color: black;
+  }
+  .image{
+
+    display: flex;
+    gap:8%;
+  }
+
+  .entrantes{
+
+    font-size: 70px;
+    font-family: TTBlackWards;
+    color: #473c38;
+    
+
+  }
+
+  /*Identificadores*/
+  
+
+   #subtitulos2{
+
+    width: 32%;
+
+  }
+
+  #apicultor{
+
+
+    width: 567px;
+    height: 215px;
+    display: block;
+
+  }
+
+  #miel{
+
+    width: 567px;
+    height: 280px;
+    display: block;
+    margin-top: 20px;
+   
+  }
+  
+  #abejaInicio{
+
+    width: 48%;
+    padding-left: 2%;
+
+  }
+
+  #logo{
+   
+    
+    position: absolute;
+    top: 0%;
+    right: 0%; /* Alinear a la derecha */
+    
+  }
+ 
+  
