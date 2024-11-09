@@ -13,8 +13,16 @@
      });
  }
 
+ function irASeccion5() {
+    document.getElementById("seccion4").scrollIntoView({ behavior: 'smooth' });
+  }
+
  // Ejecutar cuando se haga scroll
  window.addEventListener('scroll', verificarVisibilidad);
+
+ window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
 
  // Ejecutar una vez al cargar la pagina
  verificarVisibilidad();
