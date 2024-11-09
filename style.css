@@ -38,7 +38,7 @@ body, html {
     color: #473c38;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 4%;
+    margin-top: 5%;
     opacity:0%;
     transition: opacity 1.2s ease-in-out;
   }
@@ -59,18 +59,45 @@ body, html {
     font-family: TTBlackWards;
     color: #473c38;
     font-size: 70px;
-    width: 25%;
+    width: 74%;
+    margin: 0;
+    margin-top: 10%;
 
   }
 
-  
+  .integrantes{
+
+    display: flex;
+    position: center;
+    gap: 10%;
+    margin-top: 8%;
+    justify-content: center;
+
+  }
+
+  .integrante1{
+
+    text-align: center;
+    justify-content: center;
+  }
+
+  .nombreintegrante{
+
+    font-size: 24px;
+    color:#473c38;
+  }
 
   .anuncio{
 
     display: flex;
-    gap: 8%;
+    gap: 6%;
 
 
+  }
+
+  .integrantesfoto{
+
+    width: 200px;
   }
 
   .anuncio2{
@@ -92,11 +119,14 @@ body, html {
     border: 1.7px solid black;
     transition: background-color 0.7s;
     cursor: pointer;
-    position: absolute;
-    top:65%;
-    left: 56.7%;
+    margin:0 auto;
+    margin-top: 10%;
+   
 
   }
+
+
+
 
   .buttonext:hover {
     background-color: #ccbf9a; /* Color del botón al pasar el cursor */
@@ -107,11 +137,42 @@ body, html {
     font-size: 24px;
     width: 44%;
     color: black;
+    padding-top: 3%;
   }
   .image{
 
     display: flex;
     gap:8%;
+    object-fit: cover;
+  }
+
+  .numeroproducto{
+
+    font-size: 45px;
+    text-align: left;
+
+  }
+
+  .producto1 img,
+  .producto2 img,
+  .producto3 img {
+    width: 340px;
+}
+
+  .producto1 p:nth-of-type(2),
+  .producto2 p:nth-of-type(2),
+  .producto3 p:nth-of-type(2) {
+    font-size: 30px;
+  }
+
+  .bloqueproductos{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:5%;
+    padding-top: 2%;
   }
 
   .entrantes{
@@ -122,6 +183,21 @@ body, html {
     
 
   }
+
+  .textointegrante{
+
+    font-size: 20px;
+  }
+
+  .opinionclientes{
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 7%;}
+    
+
 
   /*Identificadores*/
   
@@ -163,7 +239,14 @@ body, html {
     position: absolute;
     top: 0%;
     right: 0%; /* Alinear a la derecha */
+    object-fit: cover;
     
+  }
+
+  #opinioncliente{
+
+    width: 67%;
+
   }
  
   
