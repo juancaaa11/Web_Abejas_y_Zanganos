@@ -36,4 +36,4 @@ Solo necesitas un navegador web moderno para visualizar y editar el contenido. N
 Plantilla creada por [juancaaa11](https://github.com/juancaaa11).
 
 ## 📄 Licencia
-Este proyecto está disponible bajo la licencia MIT. ¡Siéntete libre de utilizar y modificar la plantilla según tus necesidades!
+Este proyecto está disponible bajo la licencia MIT. ¡Siéntete libre de utilizar y modificar la plantilla según tus necesidades!# juancaaa11.github.io
