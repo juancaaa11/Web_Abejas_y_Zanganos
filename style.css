@@ -146,7 +146,37 @@ body, html {
     object-fit: cover;
   }
 
+  .titular{
 
+    display: flex;
+    
+
+  }
+
+  .nav{
+
+    margin-top: 0.2%;
+    margin-left: 10%;
+    background-color: unset;
+    border-style: none;
+    cursor: pointer;
+    
+
+
+  }
+
+  .nav :hover{
+
+    color: #b88d01;
+  }
+
+
+  .quiensomos{
+
+    font-family: TTCommonsExtraLight;
+    font-size: 18px;
+    color: #473c38;
+  }
 
   .numeroproducto{
 
@@ -318,5 +348,7 @@ body, html {
     padding-right: 30px;
 
   }
+
+
 
   
