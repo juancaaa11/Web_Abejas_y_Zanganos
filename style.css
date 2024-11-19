@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: 'TTBlackWards'; 
-    src: url('_fonts/TT\ Backwards\ Sans\ Trial\ Regular.otf') format('opentype');
+    src: url('fonts/TT\ Backwards\ Sans\ Trial\ Regular.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'TTCommonsExtraLight'; 
-    src: url('_fonts/TT\ Commons\ ExtraLight.otf') format('opentype');
+    src: url('fonts/TT\ Commons\ ExtraLight.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'TTMoons'; 
-    src: url('_fonts/TT\ Moons\ Trial\ Regular.otf') format('opentype');
+    src: url('fonts/TT\ Moons\ Trial\ Regular.otf') format('opentype');
 }
 
 /* Estilos generales */
